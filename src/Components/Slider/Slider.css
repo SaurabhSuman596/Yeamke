@@ -1,0 +1,36 @@
+.slider {
+  width: 100vw;
+  position: relative;
+  top: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: -100;
+}
+
+.slide__background {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  bottom: 50px;
+}
+
+.slider > h1 {
+  align-items: center;
+  font-size: 1.7rem;
+  color: rgb(61, 60, 60);
+  position: absolute;
+  top: 20px;
+}
+.slider > h1 > span {
+  color: rgb(255, 196, 0);
+}
+
+.slider > p {
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  top: 30%;
+}

@@ -1,0 +1,27 @@
+.sidebar {
+  position: absolute;
+  top: 100%;
+  height: 100vh;
+  background-color: rgb(236, 236, 9);
+  left: 0;
+  width: 40%;
+  overflow-x: hidden;
+}
+
+.sidebar__ul {
+  list-style: none;
+  width: 100%;
+}
+
+.sidebar__ul > li {
+  margin: 20px 10px;
+  font-size: 1.5rem;
+  font-weight: 650;
+  text-decoration: none;
+  cursor: pointer;
+}
+.sidebar__ul > li :hover {
+  background-color: rgb(32, 32, 1);
+  color: white;
+  text-decoration: none;
+}
